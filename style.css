@@ -54,11 +54,6 @@ body,html{
     text-transform: capitalize;
     color:#fff;
 }
-.text{
-    height: 300px;
-    width:100%;
-    background:#676060
-}
 .hvideo{
     position: absolute;
     height: 100%;
@@ -83,4 +78,100 @@ body,html{
 .cont{
     font-size: 70px;
     font-family: alice;
+}
+.hfooter{
+    position: absolute;
+    bottom: 10%;
+    right:10%;
+    text-align: right;
+}
+.cont2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.char{
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color: #f4f1f1;
+    border-radius: 30px;
+}
+.feathead{
+    height: 70vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding 70px 20px;
+    background: #dfdede;
+}
+.charsec{
+    height: 70vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ftcont{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: alice;
+    color: black;
+}
+.ftpara{
+    padding: 20px 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+}
+.charcard{
+    height:100vh;
+    width: 100%;;
+    align-items: center;
+    justify-content: center;
+    background: #dfdede;
+}
+.topcard{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.bottomcard{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background: rgb(60, 60, 129);
+}
+.cardtext{
+
+}
+.cardname{
+    font-family: alice;
+    color: bisque;
+    font-size: 20px;
+}
+.charname{
+    font-family: alice;
+    color: bisque;
+    font-size: 20px;
+}
+}
+.cardtag{
+    display: flex;
+}
+.cardbutton{
+
+}
+.charimg{
+    height: 300px;
+    position: absolute;
+    top=-30px;
 }
